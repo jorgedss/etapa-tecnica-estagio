@@ -1,0 +1,10 @@
+Ao ir a uma sala podemos observar três possibilidades para o estado da lâmpada: acesa, apagada e quente(indicando que foi desligada a pouco tempo) ou apagada e fria(indicando que não foi ligada). Ao ir a sala na primeira vez, teremos uma conclusão a respeito do estado da lâmpada. Ao ir pela segunda vez, nõ teremos nenhuma outra informação que contribua para sabermos o estado das outras lâmpadas. Logo,se, obrigatoriamente, eu tiver de ir à mesma sala duas vezes, é impossível desvendar qual interruptor liga cada lâmpada. Por outro lado, se eu puder usar essas duas idas de modo que cada ida seja em salas distintas, é possível da seguinte forma:
+
+Ligaria o primeiro interruptor por alguns minutos, em seguida, desligaria-o e ligaria o segundo. Na sequência, iria às duas primeiras salas e faria a análise. As possibilidades são:
+
+Primeira lâmpada acesa e segunda lâmpada apagada e quente: o segundo interruptor controla a primeira, o primeiro a segunda, e o terceiro a terceira.
+Primeira lâmpada acesa e segunda lâmpada apagada e fria: o segundo controla a primeira, o terceiro a segunda e o primeiro a terceira lâmpada.
+Primeira lâmpada apagada e quente, segunda lâmpada acesa: o primeiro interruptor controla a primeira lâmpada, o segundo a segunda e o terceiro a terceira.
+Primeira lâmpada apagada e quente, segunda lâmpada apagada e fria: o primeiro interruptor controla a primeira, o segundo a terceira e o terceiro a segunda.
+Primeira lâmpada apagada e fria, segunda lâmpada apagada e quente: o primeiro interruptor liga a segunda, o terceiro a primeira, e o segundo a terceira.
+Primeira lâmpada apagada e fria, segunda acesa: o primeiro interruptor liga a terceira, o segundo a segunda, o terceiro a primeira.
